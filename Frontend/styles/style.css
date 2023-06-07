@@ -1,0 +1,58 @@
+/* Navbar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+
+nav{
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+nav > div{
+    margin: 5px 40px;
+}
+
+nav > div  img{
+    width: 60px;
+}
+
+
+nav > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 0px 50px;
+    margin-left: 100px;
+}
+nav > div:nth-child(2) > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+nav > div:nth-child(2) > a:hover{
+    color: blue; 
+    font-weight: bold;
+}
+
+nav > div:nth-child(3){
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+#showUserName{
+    display: none;
+}
+

@@ -1,0 +1,51 @@
+main {
+    padding: 20px;
+
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/* Specific Styles */
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    /* background-color: #f8f8f8; */
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+.bio img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio p {
+    margin: 0;
+}

@@ -1,0 +1,81 @@
+nav > div:nth-child(3){
+    font-size: 1.5rem;
+    float: right;
+    width: 5%;
+}
+
+
+.welcome--text > h2{
+    margin: auto;
+    /* color: #666; */
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.welcome--text > h2:hover{
+    color: red;
+    cursor: pointer;
+    letter-spacing: 15px;
+}
+
+
+
+
+/*************** login form ********************/
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.container> div:nth-child(1){
+    margin-bottom: 30px;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+
+#login > input {
+    font-size: 1.1rem;
+    border-radius: 5px ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+}
+#login > input:hover{
+    background-color: rgb(246, 250, 250);
+    cursor: pointer;
+}
+
+#login > input[type="submit"]{
+    background-color: transparent;
+    background-color: #0f0e0e;
+    color: aqua;
+    padding: 5px 0px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+#login > input[type="submit"]:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.SignUp-button{
+    margin-top: 20px;
+}
